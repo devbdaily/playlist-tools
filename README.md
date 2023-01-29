@@ -1,3 +1,4 @@
-# Spotty Fly
+# Playlist Tools
 
-Supercharge your Spotify Experience with tagging, playlist building tools, etc.
+Playlist building tools. Hooks up with spotify, plans to integrate with others
+as well.

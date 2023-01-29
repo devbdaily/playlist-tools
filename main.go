@@ -1,6 +1,6 @@
 package main
 
-import "github.com/devbdaily/spotty-fly/cmd"
+import "github.com/devbdaily/playlist-tools/cmd"
 
 func main() {
 	cmd.Execute()
