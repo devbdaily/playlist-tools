@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=iamroot
+    volumes:
+      - db-data:/var/lib/postgresql/data
+  workspace:
+    build:
+      context: ../..
+    command: tail -f /dev/null
+
+volumes:
+  db-data:
